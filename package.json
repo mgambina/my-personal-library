@@ -1,0 +1,22 @@
+{
+  "name": "my-personal-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgambina/my-personal-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgambina/my-personal-library/issues"
+  },
+  "homepage": "https://github.com/mgambina/my-personal-library#readme",
+  "dependencies": {
+    "mongodb": "^4.4.1"
+  }
+}
