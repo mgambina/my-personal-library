@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "nodemon",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/nodemon",
+      "program": "${workspaceFolder}/main.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "env": {
+        "DATABASE_NAME":"",
+        "DATABASE_USERNAME":"",
+        "DATABASE_PASSWORD":"",
+        "DATABASE_HOSTNAME":"",
+        "DATABASE_PORT":""
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "nodemon-with-dot-env",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/nodemon",
+      "program": "${workspaceFolder}/main.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Current File",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/nodemon",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+    }
+  ]
+}

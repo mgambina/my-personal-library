@@ -39,8 +39,8 @@ To get started I will aim to save as a record on the database the following info
 - Goodreads ratings
 
 ## To do
-1. crear una base de datos postgress
-2. crear una tabla book con title y id (autogenerado)
+1. ~~crear una base de datos postgress (y tambien usar pgadmin)~~
+2. ~~crear una tabla book con title y id (autogenerado)~~
 3. GET book
 4. POST book
 5. OAS (reemplazo de Raml) aka [Swagger](https://swagger.io/specification/#:~:text=The%20OpenAPI%20Specification%20(OAS)%20defines,or%20through%20network%20traffic%20inspection.)
