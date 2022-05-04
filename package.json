@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +19,13 @@
   "homepage": "https://github.com/mgambina/my-personal-library#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "expressify": "^2.0.0",
     "mongodb": "^4.4.1",
     "nodemon": "^2.0.15",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "swagger-parser": "^10.0.3",
+    "swagger-routes-express": "^3.3.1",
+    "swagger-ui-express": "^4.3.0"
   }
 }
