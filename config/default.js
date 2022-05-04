@@ -7,5 +7,9 @@ module.exports = {
     password: process.env.DATABASE_PASSWORD,
     host: process.env.DATABASE_HOSTNAME,
     port: process.env.DATABASE_PORT
-  }
+  },
+  express: {
+    host: process.env.HOST,
+    port: process.env.PORT
+  },
 }
